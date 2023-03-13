@@ -14,7 +14,7 @@ Our synthetic QA sets can be downloaded from [here](https://drive.google.com/fil
 
 If you would like to generate data from scratch, first `cd` to the `src/Data_generation` directory.
 
-For the **ATOMIC** synthetic sets, download the ATOMIC from [official website](https://homes.cs.washington.edu/~msap/atomic/) and uncompress.
+For the **ATOMIC** synthetic sets, download the ATOMIC from [official website](https://allenai.org/data/atomic) and uncompress.
 Then run
 ```
 python generate_from_ATOMIC.py --train_KG atomic/v4_atomic_trn.csv --dev_KG atomic/v4_atomic_dev.csv --strategy random --out_dir ../../data/ATOMIC  
